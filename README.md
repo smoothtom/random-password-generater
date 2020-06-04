@@ -16,6 +16,6 @@ Welcome to my little Programm which I coded - as you can see its random password
 
 --> check if you have the file rpg.txt, if not then create this one
 
---> stuff =)
+--> some more exciting stuff - be patient !
 
 Have Fun ... 
