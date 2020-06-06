@@ -32,7 +32,7 @@ else:
 
 text_file = open("rpg.txt", "a+")
 n = text_file.write("Generated Password is: "+ random + "\n"
-        "Time: " + time.strftime("%d.%m.%Y um %H:%M:%S Uhr") + "\n"
+        "Date: " + time.strftime("%d.%m.%Y , Time: %H:%M:%S") + "\n"
         "Usage: " + ask_user + "\n")
 text_file.close()
 

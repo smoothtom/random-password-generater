@@ -1,9 +1,3 @@
-Generated Password is: os3w6jlACrid
-Time: 06.06.2020 um 13:17:39 Uhr
-Usage: google
-Generated Password is: xD92ZVmjcBA3
-Time: 06.06.2020 um 13:21:00 Uhr
-Usage: google.com
-Generated Password is: 55uQj7Kq6Mx1
-Time: 06.06.2020 um 13:22:02 Uhr
+Generated Password is: RUWJh8f5E1Me
+Date: 06.06.2020 , Time: 13:39:40
 Usage: test
