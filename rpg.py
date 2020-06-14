@@ -23,8 +23,27 @@ def query():
 
 query()
 
-ask_first = input("Do You want to keep this password? (yes or no) : ")
-if ask_first == "yes":
+
+while True:
+    try:
+        ask_first = input("Do You want to keep this password? (yes or no) : ")
+        if ask_first == "yes":
+            ask_user = input("For what usage is it needed? : ")
+            print("Congratulations, your password has been saved in your .txt file")
+            text_file = open("rpg.txt", "a+")
+            n = text_file.write("Generated Password is: "+ random + "\n"
+                "Date: " + time.strftime("%d.%m.%Y , Time: %H:%M:%S") + "\n"
+                "Usage: " + ask_user + "\n")
+            text_file.close()
+            break
+        elif ask_first == "no":
+            break
+    except:
+        sys.exit(0)
+
+# before while loop
+
+"""if ask_first == "yes":
     ask_user = input("For what usage is it needed? : ")
     print("Congratulations, your password has been saved in your .txt file")
 else:
@@ -32,7 +51,7 @@ else:
 
 text_file = open("rpg.txt", "a+")
 n = text_file.write("Generated Password is: "+ random + "\n"
-        "Date: " + time.strftime("%d.%m.%Y , Time: %H:%M:%S") + "\n"
-        "Usage: " + ask_user + "\n")
-text_file.close()
+    "Date: " + time.strftime("%d.%m.%Y , Time: %H:%M:%S") + "\n"
+    "Usage: " + ask_user + "\n")
+text_file.close()"""
 
