@@ -41,17 +41,3 @@ while True:
     except:
         sys.exit(0)
 
-# before while loop
-
-"""if ask_first == "yes":
-    ask_user = input("For what usage is it needed? : ")
-    print("Congratulations, your password has been saved in your .txt file")
-else:
-    sys.exit(0)
-
-text_file = open("rpg.txt", "a+")
-n = text_file.write("Generated Password is: "+ random + "\n"
-    "Date: " + time.strftime("%d.%m.%Y , Time: %H:%M:%S") + "\n"
-    "Usage: " + ask_user + "\n")
-text_file.close()"""
-
