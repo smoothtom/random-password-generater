@@ -26,8 +26,8 @@ query()
 
 while True:
     try:
-        ask_first = input("Do You want to keep this password? (yes or no) : ")
-        if ask_first == "yes":
+        ask_first = input("Do You want to keep this password? (y/n) : ")
+        if ask_first == "y":
             ask_user = input("For what usage is it needed? : ")
             print("Congratulations, your password has been saved in your .txt file")
             text_file = open("rpg.txt", "a+")
@@ -36,8 +36,10 @@ while True:
                 "Usage: " + ask_user + "\n")
             text_file.close()
             break
-        elif ask_first == "no":
+        elif ask_first == "n":
             break
     except:
+        print("\n")
         sys.exit(0)
+
 
