@@ -18,7 +18,4 @@ Welcome to my little Programm which I coded - as you can see its a random passwo
 
 --> Now have a look in your .txt file
 
-# Things that needs to be finished 
-
-
-    - 
+# Things that needs to be finished
