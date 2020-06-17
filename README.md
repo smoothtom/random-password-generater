@@ -20,5 +20,5 @@ Welcome to my little Programm which I coded - as you can see its a random passwo
 
 # Things that needs to be finished 
 
---> ask user for searching a saved password
+
     - 
