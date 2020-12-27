@@ -7,7 +7,7 @@ Welcome to my little Programm which I coded - as you can see its a random passwo
  
 -> Function which shows your generated password 
 
--> It will create automatically a rpg.txt file for you, if you dont have one already
+-> It will create automatically a rpg.txt file for you, if you don't have one already
 
 -> Date and Time will also be there when the password is generated
 
