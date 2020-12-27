@@ -17,9 +17,9 @@ string.ascii_uppercase + string.digits) for x in range(12)])    # 12 words long 
 print("\n")
 
 def pw():            
-    print("*********************************************")
-    print("Your Generated Password is: ", random)
-    print("*********************************************")
+    print("***********************************************")
+    print("** Your Generated Password is: ", random ,"**")
+    print("***********************************************")
     print("\n")
 
 pw()
