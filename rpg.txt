@@ -1,3 +1,4 @@
-Generated Password is: UI7HDBBJ9uNR
-Date: 17.06.2020 , Time: 19:03:49
-Usage: testing 
+
+Generated Password is: b4wLcfcqKpem
+Date: 27.12.2020 | Time: 16:20:14
+Account: test 

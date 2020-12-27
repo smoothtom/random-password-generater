@@ -1,21 +1,20 @@
 
 Welcome to my little Programm which I coded - as you can see its a random password generater
 
-# Things that are done 
+# Things that the programm can do 
 
---> Generate a random Password for you 
-    - this password is saved in a .txt file 
+-> Generate a random Password for you - this password is saved in a .txt file
  
---> Function which shows your generated password 
+-> Function which shows your generated password 
 
---> It will create automatically a rpg.txt file for you, if you dont have one already
+-> It will create automatically a rpg.txt file for you, if you dont have one already
 
---> Date and Time will also be there when the password is generated
+-> Date and Time will also be there when the password is generated
 
---> Input which ask the user if you wants to keep this password
-    - if you type yes, then it will ask you for what usage is it needed
-    - if you type no, then the programm will close 
+-> Input which ask the user if you want to keep this password
+   * if you type yes, then it will ask you for what usage is it needed
+   * if you type no, then the programm will close 
 
---> Now have a look in your .txt file
+Now have a look in your .txt file :) 
 
-# Things that needs to be finished
+
