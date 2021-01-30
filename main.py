@@ -21,10 +21,7 @@ def pw():
     print("** Your Generated Password is: ", random ,"**")
     print("***********************************************")
     print("\n")
-
-pw()
-
-
+    
 def check_user():
     check = str(input("Do you want to keep this password? (y/n) : ")).lower().strip()
     try:
@@ -46,5 +43,14 @@ def check_user():
         print('Please Enter (y) or (n)!')
         return check_user()
 
+
+# def addToClipboard(text):
+    # command = 'echo | set /p nul=' + text.strip() + '| clip'
+    # os.system(command)
+
+
+
 if __name__ == '__main__':
+    pw()
     check_user()
+    # addToClipboard(random)
