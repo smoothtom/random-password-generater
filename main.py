@@ -33,8 +33,8 @@ def check_user():
             n = text_file.write("\n""Generated Password is: "+ random + "\n"
                 "Date: " + time.strftime("%d.%m.%Y | Time: %H:%M:%S") + "\n"
                 "Account: " + ask_user + "\n")
-            # add the generated password into the clipboard
             text_file.close()
+            # add the generated password into the clipboard
             clipboard.copy(random)
             text = clipboard.paste()
             return True
