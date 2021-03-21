@@ -1,5 +1,5 @@
 # Random Password Generater
-RPG is a programm which generate a random password and save it in a extra .txt file
+RPG is a program that generates a random password and saves it in an additional .txt file
 
 ## Installation
 First you will need to clone the repository
@@ -21,11 +21,11 @@ python3 main.py or ./main.py
 
 * Generate a random Password for you - this password is saved in a .txt file
  
--> It will create automatically a rpg.txt file for you, if you don't have one already
+* It will create automatically a rpg.txt file for you, if you don't have one already
 
--> Date and Time will also be there when the password is generated
+* Date and Time will also be there when the password is generated
 
--> Input which ask the user if you want to keep this password
+* Input which ask the user if you want to keep this password
    * if you type yes, then it will ask you for what usage is it needed
    * if you type no, then the programm will close 
 
