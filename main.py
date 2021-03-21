@@ -7,6 +7,7 @@ import time
 import datetime
 import os
 from os import path 
+import clipboard
 
 print("\n")
 print("Welcome to my Random Password Generator!\n")
@@ -32,7 +33,10 @@ def check_user():
             n = text_file.write("\n""Generated Password is: "+ random + "\n"
                 "Date: " + time.strftime("%d.%m.%Y | Time: %H:%M:%S") + "\n"
                 "Account: " + ask_user + "\n")
+            # add the generated password into the clipboard
             text_file.close()
+            clipboard.copy(random)
+            text = clipboard.paste()
             return True
         elif check == 'n':
             return False
@@ -44,13 +48,8 @@ def check_user():
         return check_user()
 
 
-# def addToClipboard(text):
-    # command = 'echo | set /p nul=' + text.strip() + '| clip'
-    # os.system(command)
-
 
 
 if __name__ == '__main__':
     pw()
     check_user()
-    # addToClipboard(random)
